@@ -238,3 +238,4 @@ class DBTestCase(unittest.TestCase):
         config = self._database.get_config_for(experiment_id)
 
         self.assertEqual(test_config, config)
+
